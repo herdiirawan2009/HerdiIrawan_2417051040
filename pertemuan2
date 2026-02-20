@@ -1,1 +1,44 @@
-pertemuan2
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pertemuan 2</title>
+  </head>
+  <body>
+    <!-- <img src= "nigga.png" alt="gambar" width="500" height="500">
+   <table border="1">
+        <tr>
+            <th>Nama</th>
+            <th>Umur</th>
+            <th>Pendidikan</th>
+        </tr>
+        <tr>
+            <td>Budi</td>
+            <td>19</td>
+            <td>SMP</td>
+        </tr>
+        <tr>
+            <td>Raka</td>
+            <td>22</td>
+            <td>S1</td>
+        </tr>
+    </table> -->
+
+    <form action="ambil.html" method="get">
+      <label>Nama :</label>
+      <input type="text" name="nama" placeholder="Masukan nama" /> <br />
+      <label>Email :</label>
+      <input type="text" name="email" placeholder="Masukan email" /> <br />
+      <label>Alamat :</label>
+      <input type="text" name="Alamat" placeholder="Masukan alamat" /> <br />
+      <label>Password :</label>
+      <input type="text" name="Password" placeholder="Masukan Password" />
+      <br />
+      <br />
+
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
+
